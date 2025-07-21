@@ -1,0 +1,26 @@
+<html>
+    <head>   
+    <link rel="stylesheet" href="Components/abyss.css">
+    <audio id="select" src="https://files.catbox.moe/12xpxe.mp3" preload="auto"></audio>
+    </head>
+    <style>
+        body {
+            background-color: #1c193a;
+        }
+    </style>
+    <body>
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <p>P</p>
+    <a onmouseover="playHoverSound()">Link(not actually, just an a with no href)</a>
+    <h1></h1>
+    <a target="_blank"href="https://www.youtube.com/watch?v=A8nCgsHb6TA" onmouseover="playHoverSound()">Actual Link</a>
+    <script>
+  function playHoverSound() {
+    const sound = document.getElementById("select");
+    sound.currentTime = 0; 
+    sound.play();
+  }
+  </script>
+  </body>
+</html>
