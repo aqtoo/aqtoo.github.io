@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face { 
+  font-family:"DTMono";
+  src: url('Fonts/determination-mono.ttf');
+}
+
+/*html {
+     cursor: url('Components/Images/Soul.png'), auto;
+}*/
+
+body {
+    font-family: "DTMono";
+    color:#FFFFFF;
+}
+
+h1 {
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.616);
+    font-style:none;
+    font-weight:normal;
+}
+
+h2 {
+  margin-top: -25px;
+  font-size: 15px;
+  font-style:none;
+  font-weight:normal;
+  color:#cccccc
+}
+
+p {
+  font-style:none;
+  font-weight:normal;
+  color:#FFFFFF
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffff00;
+}
+
+
+a:visited {
+  color: #c2c2c2;
+}

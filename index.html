@@ -1,44 +1,29 @@
-<!DOCTYPE html>
+  <!--i will be putting comments so u understand how this works -ole -->
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-      
-    <title>My Home!</title>
-    <meta content="actu's workshop" property="og:title" />
-    <meta content="Miles Electric™" property="og:description" />
-    <meta content="#f5a325" data-react-helmet="true" name="theme-color" />
-  </head>
-  <body>
-    
-      
-      <div style="display: flex;justify-content: center;flex-wrap: wrap;align-items: center;">            
-      <img style="height: 30px; width: 30px; margin-right: 5px" src="assets/SoulTitle.png" alt="A pixelated red soul, from Undertale."> 
-      <h1 style="display:inline;">
-      MY PAGE
-      </h1>
-      </div>
-  
-    <h2>
-    * Work in progress! (This HTML & CSS stuff is tough!)
-    </h2>
-    
-    <nav class="DRBorder">
-    <p>
-    * Greetings, I am unsure how you got here, although I suppose manners should be used, Hello! I am <span style="color:#fcf151">actu</span>!
-    </p>
-    <p>
-    * Hm..? You wanna know more? Well, why not. I'm a twenty year old from the UK who's got a strong love for animals, games, and much more, although why not give me a message to learn more?
-    </p>
-    <p>
-    * You-.. don't know how to contact me? Of course, silly me.. here.
-    </p>
-    <p>
-    * You obtained their only (public) <a href="https://discord.com/users/238991056794943488">undernet profile!</a>
-    </p>
-    </nav>
-
-  </body>
+  <!--Main stuff-->
+    <head>   
+    <link rel="stylesheet" href="Components/void.css">
+    <link rel="icon" type="image/x-icon" href="/Components/Images/Padoru.png">
+    <audio id="select" src="https://files.catbox.moe/12xpxe.mp3" preload="auto"></audio>
+    <title>ality.zip</title>
+    </head>
+    <h1>ality.zip</h1>
+    <a href="home.html" target="filler" onmouseover="playHoverSound()">HOME</a> <a href="blog.html" target="filler" onmouseover="playHoverSound()">BLOG</a> <a href="template.html" target="filler" onmouseover="playHoverSound()">TEMPLATE</a>
+    <hr align="left">
+<!--Frame, that is responsible for having html files inside-->
+<iframe name="filler" loading="eager" width="100%" height="500px" style="border:none;" src="home.html">
+</iframe>
+<!--the silly version thing -->
+    <div class="sillything">
+       ality.zip @ v.253
+    </div>
+    </div>
+    <!--script that makes it so when you hover over a link it plays the ut select sound -->
+    <script>
+  function playHoverSound() {
+    const sound = document.getElementById("select");
+    sound.currentTime = 0; 
+    sound.play();
+  }
+  </script>
 </html>

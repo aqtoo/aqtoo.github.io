@@ -1,0 +1,26 @@
+<html>
+    <head>   
+    <link rel="stylesheet" href="Components/abyss.css">
+    <audio id="select" src="https://files.catbox.moe/12xpxe.mp3" preload="auto"></audio>
+    </head>
+    <body>
+    <div class="dateselect">
+
+
+      <!--DATE LIST-->
+    <a onmouseover="playHoverSound()" target="desc" href="/Blog/template.html">00.00.0000</a>
+
+<div class="blogdesc">
+  <iframe align ="left"name="desc" loading="eager" width="345px" height="470px" style="background-color: black; border:4px solid #ffffff; margin-left: 150px;" >
+  </iframe>
+  </div>
+    <script>
+  function playHoverSound() {
+    const sound = document.getElementById("select");
+    sound.currentTime = 0; 
+    sound.play();
+  }
+  </script>
+  </div>
+  </body>
+</html>

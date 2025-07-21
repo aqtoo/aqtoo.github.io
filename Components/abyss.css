@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face { 
+  font-family:"DTMono";
+  src: url('Fonts/determination-mono.ttf');
+}
+
+/*html {
+     cursor: url('Components/Images/Soul.png'), auto;
+}*/
+
+body {
+    font-family: "DTMono";
+    color:#FFFFFF;
+}
+
+h1 {
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.616);
+    font-style:none;
+    font-weight:normal;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #c2c2c2;
+}
+
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffff00;
+}
+
+
+hr {
+display:block;
+border-radius:3px;
+border:1px solid;
+width: 35%;
+}
+
+p {
+background-color: #000000;
+width: 500px;
+text-align: center;
+border: 4px solid #ffffff;
+padding: 20px;
+}
+
+  .dateselect {
+    background-color: #000000;
+    border:4px solid #ffffff;
+    width:100px;
+    padding:20px;
+    font-size:20px;
+    text-align: center;
+    height: 100px;
+  }
+
+  .blogdesc {
+    margin-top: -44.5px
+  }
