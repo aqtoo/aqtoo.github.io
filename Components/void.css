@@ -10,8 +10,10 @@
 }*/
 
 body {
-    margin-left: 350px;
+    max-width: 500px;
+    margin: auto;
     font-family: "DTMono";
+    font-size: 150%;
     background-color: #1c193a;
     color:#FFFFFF;
 }
@@ -46,7 +48,7 @@ hr {
 display:block;
 border-radius:3px;
 border:1px solid;
-width: 35%;
+width: auto;
 }
 
 
@@ -58,5 +60,5 @@ font-size: 20
 
   .sillything {
     color:#c2c2c2;
-    font-size:  10px;
+    font-size:  75%;
   }
