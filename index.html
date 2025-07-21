@@ -6,6 +6,9 @@
     <link rel="icon" type="image/x-icon" href="/Components/Images/Padoru.png">
     <audio id="select" src="https://files.catbox.moe/12xpxe.mp3" preload="auto"></audio>
     <title>ality.zip</title>
+    <meta content="actu's workshop" property="og:title"/>
+    <meta content="Miles Electric™" property="og:description"/>
+    <meta content="#f5a325" data-react-helmet="true" name="theme-color"/>
     </head>
     <h1>ality.zip</h1>
     <a href="home.html" target="filler" onmouseover="playHoverSound()">HOME</a> <a href="blog.html" target="filler" onmouseover="playHoverSound()">BLOG</a> <a href="template.html" target="filler" onmouseover="playHoverSound()">TEMPLATE</a>
@@ -22,6 +25,7 @@
     <script>
   function playHoverSound() {
     const sound = document.getElementById("select");
+    sound.volume = 0.5
     sound.currentTime = 0; 
     sound.play();
   }
